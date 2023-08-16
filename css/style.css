@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url('../img/sistemas-fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-image: url('../img/Ing_sistemas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 122, 223, 0.986);
+    letter-spacing: 3px;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 122, 223, 0.986);
+    letter-spacing: 3px;
+    padding: 5px 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 122, 223, 0.986);
+    letter-spacing: 3px;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.datos-titulo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.fecha-negrita {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.box {
+    display: flex;
+    align-items: baseline;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0px;
+    line-height: 25px;
+}
+
+.box1 {
+    display: flex;
+    align-items: baseline;
+    padding-left: 20px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0px;
+    line-height: 23px;
+}
+.box2 {
+    align-items: baseline;
+    padding: 15px 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0px;
+    text-align: justify;
+    line-height: 25px;
+}
+.fotocv {
+    border-radius: 120px;
+}
+.retorno-icon{
+    float: right;
+}
+footer {
+    background-color: rgb(20, 41, 230);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
